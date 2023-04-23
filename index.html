@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/Favicon/favicon.ico" type="image/x-icon">
+		<title>Professional Photographer - John Lloyd B. Castaneras</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/t9d22DvZ_400x400.jpg" alt="" /></span>
+							<h1 id="title">CastanerasJL
+							</h1>
+							<p>Professional Photographer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+<!-- Social Icons -->
+<ul class="icons">
+    <li><a href="https://www.facebook.com/castanerasjohn.lloyd" target= "_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+    <li><a href="https://www.instagram.com/castanerasjohn.lloyd/" target= "_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+	<li><a href="https://t.me/Castaneras4Zeno" target= "_blank" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+
+</ul>
+
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover"><img src="images/t9d22DvZ_400x400.jpg" alt="" /></span>
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>John</strong> Lloyd <a href="https://www.facebook.com/castanerasjohn.lloyd" target= "_blank">B. Castaneras</a></h2>
+								<p>Professional Photographer<br/>
+							</header>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Highly experienced and skilled photographer, I specialize in capturing moments that are not only beautiful but also timeless. From stunning portraits to breathtaking landscapes, my goal is to create images that will be cherished for generations to come. Whether you're looking to capture your special day, family memories, or business branding, I am committed to delivering personalized and exceptional services that exceed your expectations. So why settle for average photography when you can have the best? Contact me today to schedule your session and let me bring your vision to life.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_2134.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Mother's Bond Time With Daughter</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_1124.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Fashion</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_1530.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Wedding</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_1903.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Bestfriends</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_1351.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Stolen Shot</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit">
+											<img src="images/DSC_1714.JPG" alt="" onclick="openFullscreen(event, this)">
+										</a>
+										<header>
+											<h3>Birthday</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+							
+							<script>
+								function openFullscreen(event, img) {
+									event.preventDefault();
+									if (img.requestFullscreen) {
+										img.requestFullscreen();
+									} else if (img.webkitRequestFullscreen) { /* Safari */
+										img.webkitRequestFullscreen();
+									} else if (img.msRequestFullscreen) { /* IE11 */
+										img.msRequestFullscreen();
+									}
+									
+									// Add event listener for exiting fullscreen mode
+									document.addEventListener("fullscreenchange", exitHandler);
+									document.addEventListener("webkitfullscreenchange", exitHandler);
+									document.addEventListener("mozfullscreenchange", exitHandler);
+									document.addEventListener("MSFullscreenChange", exitHandler);
+									
+									// Function to handle exiting fullscreen mode
+									function exitHandler() {
+										if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement && !document.msFullscreenElement) {
+											document.removeEventListener("fullscreenchange", exitHandler);
+											document.removeEventListener("webkitfullscreenchange", exitHandler);
+											document.removeEventListener("mozfullscreenchange", exitHandler);
+											document.removeEventListener("MSFullscreenChange", exitHandler);
+										}
+									}
+								}
+							</script>
+							
+							  
+
+<!-- About Me -->
+<section id="about" class="three">
+    <div class="container">
+
+        <header>
+            <h2>About Me</h2>
+        </header>
+
+        <a href="#" class="image featured">
+            <img src="images/2m.jpg" alt="" onclick="openFullscreen(event, this)" style="width: 50%; display: block; margin: 0 auto;">
+        </a>
+    </div>
+</section>
+
+<script>
+function openFullscreen(event, img) {
+    event.preventDefault();
+    if (img.requestFullscreen) {
+        img.requestFullscreen();
+    } else if (img.webkitRequestFullscreen) { /* Safari */
+        img.webkitRequestFullscreen();
+    } else if (img.msRequestFullscreen) { /* IE11 */
+        img.msRequestFullscreen();
+    }
+}
+</script>
+
+							<p>As a photographer, my main mission is to capture the absolute beauty in every single person I photograph. Whether it'd be an aspiring professional looking to update their profile picture, a family capturing a special moment, or someone who wants to feel fabulous and look stunning, I'm here to make that happen. With my keen eye for detail and passion for the perfect shot, I work hard to deliver jaw-dropping, top-notch images that will make your jaw hit the floor.
+
+								But it's not just about the technical skill - I'm all about creating an awesome, enjoyable experience for my clients. I believe that the best photos come from a collaborative effort, so let's work together to create a relaxed and fun environment that brings out the best in you! So come on, let's create some magic and make images that you'll cherish for life!</p>
+
+						</div>
+					</section>
+
+<!-- Contact -->
+<section id="contact" class="four">
+    <div class="container">
+
+        <header>
+            <h2>Contact</h2>
+        </header>
+
+        <p>Feel free to contact me via any of the options below:</p>
+
+        <div class="row">
+            <div class="col-12">
+                <a<i class="fa fa-envelope"></i> Email: johnlloydcastaneras@gmail.com</a>
+            </div>
+			<div class="col-12">
+                <a<i class="fa fa-phone"></i> Mobile: (042) 290-4474</a>
+            </div>
+            <div class="col-12">
+                <a href="https://telegram.me/Castaneras4Zeno" target= "_blank"><i class="fa fa-paper-plane"></i> Telegram: @Castaneras4Zeno</a>
+            </div>
+            <div class="col-12">
+				<div class="col-6 col-12-mobile">
+					<a href="https://www.facebook.com/castanerasjohn.lloyd" target= "_blank"><i class="icon brands fa fa-facebook-f"></i> Facebook</a>
+				</div>
+            <div class="col-12">
+                <a href="https://www.instagram.com/castanerasjohn.lloyd/" target= "_blank"><i< class="icon brands fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="col-12">
+                <a href="https://www.linkedin.com/in/john-lloyd-castaneras-a8024a266/" target= "_blank"><i class="icon brands fa fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+			</div>
+
+<!-- Footer -->
+<div id="footer">
+
+	<!-- Copyright -->
+	<p>&copy; 2023 John Lloyd B. Castaneras. All Rights Reserved.</p>
+  
+  </div>
+  
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Copyright -->
+<script type="text/javascript">
+    var d = new Date();
+    var n = d.getFullYear(2023);
+    document.getElementById("currentYear").innerHTML = n;
+</script>
